@@ -152,6 +152,7 @@ class Airplane {
    grade(student,subject){
      return `${this.student.name} receives a perfect score on ${this.subject}`
    }
+ 
  }
 
  
@@ -208,7 +209,13 @@ class Airplane {
      this.gradClassName=thing2.gradClassName;
      this.favInstructor=thing2.favInstructor;
    }
-     
+   
+     standUp(channel){
+return `${this.name} announces to ${this.channel}, @${this.channel} standy times!`;
+     }
+     debugsCode(student,subject){
+       return `${this.name} debugs ${this.name}'s code on ${this.subject}`;
+     }
  }
   /*
     STRETCH PROBLEM (no tests!)
